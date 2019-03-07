@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, .cadre, .cadreIMG{
+  width: 100%;
+  padding: 9%;
+  height: 800px;
+  margin: 0%;
+  position: relative;
+  border-radius: 2%;
+  background-color: #1E90FF;
+}
+
+body {
+	width: 100%;
+	height: auto;
+} 
+
+#name0, #name1, #name2, #name3, #name4, #name5, #name6{
+  position: relative;
+  width: calc(300px - 30px);
+  height: calc(400px - 30px);
+  background: rgb(181, 236, 236);
+  float: left;
+  margin: 24px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*transition: all O.3s ease; */
+}
+
+.cadre {
+	width: 185px;
+	height: 365px;
+	margin: 15px;
+	box-sizing: border-box;
+	background-color: rgba(64, 183, 104, 0.3);
+	border: 1.5px solid lightgrey;
+	border-radius: 10px;
+}
+
+.cadre>h1 {
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+ div{
+  background-color: #F4A460;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 100px 0;
+  text-align: center;
+  display: inline;
+ 
+}
+
+.boutton{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #B0E0E6;
+  position: relative;
+  left: 115px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.cadreIMG {
+  width: 100%;
+  
+  }
+  
+  .cadre>h2 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    text-align: center;
+  }
+  
+  .cadre>p {
+    margin: 10px;
+  }  
+
+
+
